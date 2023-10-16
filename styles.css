@@ -215,22 +215,6 @@ font-weight: var(--bold-font);
     padding: 0.5rem;
     color: var(--primary-color);
   }
-
-  .hero {
-    margin-top: -4rem;
-    flex-direction: column;
-    gap: 0;
-  }
-
-  .hero img {
-        height: 37.5rem;
-        width: 30rem;
-    }
-
-  .bio {
-    margin-top: -7rem;
-    width: 20.5rem;
-  }
   
 @media screen and (max-width: 720px) {
 /*changes reflects on screen with a width of 720px and below*/
@@ -261,4 +245,20 @@ font-weight: var(--bold-font);
       nav ul.show {
         transform: translateX(0);
       }
+      
+  .hero {
+    margin-top: -4rem;
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .hero img {
+        height: 37.5rem;
+        width: 30rem;
+    }
+
+  .bio {
+    margin-top: -7rem;
+    width: 20.5rem;
+  }
 }
