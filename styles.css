@@ -44,6 +44,7 @@ a:hover {
 
 body {
   font-family: var(--font-family);
+  color: white;
 }
 
 nav {
@@ -115,6 +116,7 @@ font-weight: var(--bold-font);
   
   .bio h1 {
     margin-bottom: var(--bottom-margin);
+    color: white;
   }
   
   .bio p {
