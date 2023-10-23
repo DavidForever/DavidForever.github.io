@@ -211,18 +211,6 @@ font-weight: var(--bold-font);
   padding: 1rem;
 }
 
-.contact-container p {
-  padding: 0.4rem;
-}
-
-.contact-title {
-  margin-bottom: var(--bottom-margin);
-}
-
-.contact-details {
-  margin-bottom: var(--bottom-margin);
-}
-
 .contact-card {
   background-color: var(--bg-color);
   border-radius: 11px;
