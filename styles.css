@@ -60,11 +60,11 @@ nav {
   }
 
 nav h1 {
-color: var(--primary-color);
+color: var(--secondary-shadow);
 }
   
 nav a {
-color: var(--primary-color);
+color: var(--secondary-shadow);
 transition: var(--transition);
 }
 nav a:hover {
@@ -133,6 +133,7 @@ font-weight: var(--bold-font);
   .project-pic {
     width: 65%;
     height: 60%;
+    border-radius: 10px;
   }
   
   .projects-container {
@@ -183,7 +184,7 @@ font-weight: var(--bold-font);
     margin-bottom: var(--bottom-margin-2);
   }
   
-  .contact-form-container {
+  .contact-container {
     max-width: 40.75rem;
     margin: 0 auto;
     padding: 0.938rem;
