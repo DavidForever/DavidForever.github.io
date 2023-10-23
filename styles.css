@@ -226,6 +226,16 @@ font-weight: var(--bold-font);
   padding: 20px;
   margin: 10px;
 }
+
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2.5rem;
+  max-width: 68.75rem;
+  margin: auto;
+  margin-top: 40px
+}
   
 @media screen and (max-width: 720px) {
 /*changes reflects on screen with a width of 720px and below*/
