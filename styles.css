@@ -9,8 +9,8 @@
   --bg-color: #1b262c;
   --primary-color: #0f4c75;
   --secondary-color: #3282b6;
-  --primary-shadow: #fbfaf6;
-  --secondary-shadow: #bbe1fa;
+  --primary-shadow: #bbe1fa;
+  --secondary-shadow: #ffffff;
   --bottom-margin: 0.5rem;
   --bottom-margin-2: 1rem;
   --line-height: 1.7rem;
@@ -112,6 +112,7 @@ font-weight: var(--bold-font);
     padding: 0.625rem;
     border-radius: 6px;
     box-shadow: 0px 2px 15px 2px var(--primary-shadow);
+    background-color: var(--bg-color);
   }
   
   .bio h1 {
