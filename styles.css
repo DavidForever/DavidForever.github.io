@@ -2,15 +2,15 @@
 
 /* Variables */
 :root {
-  --font-family: "Roboto", sans-serf;
+  --font-family: "Varela Round", sans-serf;
   --normal-font: 400;
   --bold-font: 700;
   --bolder-font: 900;
-  --bg-color: #121212;
-  --primary-color: #4756df;
-  --secondary-color: #ff7235;
-  --primary-shadow: #8b8eaf;
-  --secondary-shadow: #a17a69;
+  --bg-color: #1b262c;
+  --primary-color: #0f4c75;
+  --secondary-color: #3282b6;
+  --primary-shadow: #fbfaf6;
+  --secondary-shadow: #bbe1fa;
   --bottom-margin: 0.5rem;
   --bottom-margin-2: 1rem;
   --line-height: 1.7rem;
@@ -165,7 +165,7 @@ font-weight: var(--bold-font);
   }
   
   .project-card {
-    background-color: #121212;
+    background-color: #1b262c;
     border-radius: 11px;
     box-shadow: 0 3px 10px var(--primary-shadow);
     padding: 20px;
