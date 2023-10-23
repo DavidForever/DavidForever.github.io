@@ -2,7 +2,7 @@
 
 /* Variables */
 :root {
-  --font-family: "Varela Round", sans-serf;
+  --font-family: "Roboto", sans-serf;
   --normal-font: 400;
   --bold-font: 700;
   --bolder-font: 900;
@@ -116,7 +116,7 @@ font-weight: var(--bold-font);
   
   .bio h1 {
     margin-bottom: var(--bottom-margin);
-    color: white;
+    color: black;
   }
   
   .bio p {
