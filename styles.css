@@ -184,39 +184,35 @@ font-weight: var(--bold-font);
     margin-bottom: var(--bottom-margin-2);
   }
   
+  .contact-title {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
   .contact-container {
-    max-width: 40.75rem;
-    margin: 0 auto;
-    padding: 0.938rem;
-    border-radius: 5px;
-    box-shadow: 0 3px 10px var(--secondary-shadow);
+    text-align: center;
+    width: 21.875rem;
+    padding: 1rem;
   }
 
-  .contact-form-container label {
-    line-height: 2.7em;
-    font-weight: var(--bold-font);
-    color: var(--primary-color);
+  .contact-container p {
+    padding: 0.4rem;
   }
   
-  .contact-form-container textarea {
-    min-height: 6.25rem;
-    font-size: 14px;
+  .contact-title {
+    margin-bottom: var(--bottom-margin);
   }
   
-  .contact-form-container .input-field {
-    width: 100%;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    border-radius: 5px;
-    border: none;
-    border: 2px outset var(--primary-color);
-    font-size: 0.875rem;
-    outline: none;
+  .contact-details {
+    margin-bottom: var(--bottom-margin);
   }
-
-  .input-field::placeholder {
-    padding: 0.5rem;
-    color: var(--primary-color);
+  
+  .contact-card {
+    background-color: #1b262c;
+    border-radius: 11px;
+    box-shadow: 0 3px 10px var(--primary-shadow);
+    padding: 20px;
+    margin: 10px;
   }
   
 @media screen and (max-width: 720px) {
