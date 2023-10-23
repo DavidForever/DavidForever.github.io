@@ -174,46 +174,57 @@ font-weight: var(--bold-font);
     padding: 20px;
     margin: 10px;
   }
+  
+.contact {
+  background-color: var(--bg-color);
+  padding: 32px 0;
+  margin-top: 2rem;
+}
 
-  .contact {
-    margin-top: 2rem;
-  }
-  
-  .contact h2 {
-    text-align: center;
-    margin-bottom: var(--bottom-margin-2);
-  }
-  
-  .contact-title {
-    text-align: center;
-    margin-bottom: 1rem;
-  }
-  
-  .contact-container {
-    text-align: center;
-    width: 21.875rem;
-    padding: 1rem;
-  }
+.contact-pic {
+  width: 65%;
+  height: 60%;
+  border-radius: 10px;
+}
 
-  .contact-container p {
-    padding: 0.4rem;
-  }
-  
-  .contact-title {
-    margin-bottom: var(--bottom-margin);
-  }
-  
-  .contact-details {
-    margin-bottom: var(--bottom-margin);
-  }
-  
-  .contact-card {
-    background-color: #1b262c;
-    border-radius: 11px;
-    box-shadow: 0 3px 10px var(--primary-shadow);
-    padding: 20px;
-    margin: 10px;
-  }
+.contact-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+.contact-title {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.contact-container {
+  text-align: center;
+  width: 21.875rem;
+  padding: 1rem;
+}
+
+.contact-container p {
+  padding: 0.4rem;
+}
+
+.contact-title {
+  margin-bottom: var(--bottom-margin);
+}
+
+.contact-details {
+  margin-bottom: var(--bottom-margin);
+}
+
+.contact-card {
+  background-color: #1b262c;
+  border-radius: 11px;
+  box-shadow: 0 3px 10px var(--primary-shadow);
+  padding: 20px;
+  margin: 10px;
+}
   
 @media screen and (max-width: 720px) {
 /*changes reflects on screen with a width of 720px and below*/
