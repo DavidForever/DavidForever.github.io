@@ -60,7 +60,8 @@ nav {
   }
 
 nav h1 {
-color: var(--secondary-shadow);
+color: white
+/* var(--secondary-shadow); */ use incase mess up
 }
   
 nav a {
@@ -174,7 +175,7 @@ font-weight: var(--bold-font);
     padding: 20px;
     margin: 10px;
   }
-  
+
 .contact {
   background-color: var(--bg-color);
   padding: 32px 0;
