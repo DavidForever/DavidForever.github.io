@@ -116,7 +116,7 @@ font-weight: var(--bold-font);
   
   .bio h1 {
     margin-bottom: var(--bottom-margin);
-    color: black;
+    color: white;
   }
   
   .bio p {
