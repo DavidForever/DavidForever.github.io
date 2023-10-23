@@ -220,7 +220,7 @@ font-weight: var(--bold-font);
 }
 
 .contact-card {
-  background-color: #1b262c;
+  background-color: #ffffff;
   border-radius: 11px;
   box-shadow: 0 3px 10px var(--primary-shadow);
   padding: 20px;
